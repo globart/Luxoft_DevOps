@@ -9,6 +9,6 @@ Then you have to go to clonned folder, and run these commands:
 terraform init
 terraform apply (press "yes" when prompted)
 ``` 
-Terraform will create 2 instances, and execute Ansible playbook on each of them. The playbook will update existing and install required packages, add Docker repository to your host, install Docker and run nginx image with port 80 published. After this, Terraform will output the IP`s of your instances, which you can visit to test the status of nginx server.
+Terraform will create 2 instances, and execute Ansible playbook on each of them. The playbook will update existing and install required packages, add Docker repository to your host, install Docker and run nginx image with port 80 published. After this, Terraform will output the IP's of your instances, which you can visit to test the status of nginx server. <br>
 ![](images/img1.png)
 ![](images/img2.png)
