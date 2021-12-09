@@ -4,6 +4,7 @@ If you have Windows host machine, you can either use WSL(Windows Subsystem for L
 You also have to download Terraform, which you can do here: https://www.terraform.io/downloads.html. <br>
 After this, you have to clone my GitHub repository, to get Ansible Playbook and config and Terraform file. <br>
 Here is the the link(SSH): git@github.com:Globart1337/Luxoft_DevOps.git. <br>
+Then you have to go to your AWS account - Security Credentials and create new pair of access keys. You will have to change mine keys to your's in docker.tf file. <br>
 Then you have to go to clonned folder, and run these commands:
 ```
 chmod 400 docker.pem
